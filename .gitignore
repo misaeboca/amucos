@@ -1,0 +1,20 @@
+.DS_Store
+
+/vendor/*
+/mw-core/*
+
+composer.lock
+error.log
+requests.log
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project

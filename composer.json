@@ -1,0 +1,27 @@
+{
+	"description": "AMUCO",
+	"name": "amuco/system",
+	"type": "project",
+	"homepage": "http://www.amucoinc.com/",	
+	"repositories":[		
+		{
+			"type": "git",
+			"url": "https://git-codecommit.us-east-1.amazonaws.com/v1/repos/mw-core"
+		}
+	],
+
+	"require": {
+		"php": ">=5.2.4",
+		"oomphinc/composer-installers-extender": "^1.1",		
+		"middleware/core": "dev-master"
+		
+	},	
+    "extra": {
+        "installer-types": ["mw-core"],
+		"installer-paths": {			
+			"mw-core": ["middleware/core"]
+		}
+	},
+	"minimum-stability": "dev",
+    "prefer-stable": true
+}
